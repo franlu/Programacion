@@ -1,6 +1,3 @@
-# Programacion
-Materiales para el módulo de Programación en ciclos formativos de grado superior
-
 #  :computer: Programación
 Materiales para el módulo Programación correspondiente al ciclo formativo de grado superior Desarrollo de Aplicaciones Multiplatarorma
 

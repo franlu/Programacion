@@ -11,7 +11,7 @@ Materiales para el módulo Programación correspondiente al ciclo formativo de g
 
 Listado de [alumn@s](queridos-alumnos.md) con sus respectivos perfiles en Github para el curso 22/23.
 
-### Recursos
+### :link: Recursos
 
 * [Cositas interesantes](cositas.md)
 

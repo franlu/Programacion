@@ -1,4 +1,13 @@
-### Cositas interesantes
+### :book: Cositas interesantes
 
-* [Informe sobre la carrera de un Desarrollador](https://www.getmanfred.com/es/developer-career-report)
+* [2022-Octubre - Informe Desarrolladores](https://www.getmanfred.com/es/developer-career-report)
+
+
+### :tv: Twitch
+
+* [midudev](https://www.twitch.tv/midudev)
+
+
+### Varios
+
 * [Emojis Github](https://gist.github.com/rxaviers/7360908)

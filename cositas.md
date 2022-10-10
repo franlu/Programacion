@@ -1,7 +1,7 @@
 ### :book: Cositas interesantes
 
 * [2022-Octubre - Informe Desarrolladores](https://www.getmanfred.com/es/developer-career-report)
-
+* [Zeal docs](https://zealdocs.org/)
 
 ### :tv: Twitch
 

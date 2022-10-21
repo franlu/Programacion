@@ -20,6 +20,7 @@ Escribe un programa que simule el juego del Trivial a modo de cuestionario. **Re
 * Todas las preguntas se almacenan en una lista.
 * Las respuestas correctas también se almacenan en una lista.
 * El juego debe elegir 8 preguntas al azar (de forma aleatoria) de entre las que estan en la lista.
+* **No** se pueden repetir las preguntas.
 
 ### Puntuación
 

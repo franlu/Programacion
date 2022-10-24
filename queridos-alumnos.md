@@ -7,3 +7,4 @@
 * Kevin - [REXVIN1](https://github.com/REXVIN1)
 * Denis - [HiIMDenis](https://github.com/HiIMDenis).
 * Iván Castro - [ICasGar](https://github.com/ICasGar)
+* Romeo - [romejp451](https://github.com/romejp451)

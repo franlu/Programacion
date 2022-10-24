@@ -12,3 +12,4 @@
 * Gabriel - [ghidqui13](https://github.com/ghidqui13/ghidqui13)
 * Oussama - [Usama2004](https://github.com/Usama2004)
 * David - [daviiidleon](https://github.com/daviiidleon)
+* Antonio - [Antonioquiros](https://github.com/Antonioquiros)

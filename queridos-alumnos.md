@@ -11,3 +11,4 @@
 * javier - [javiergranizoaguilar](https://github.com/javiergranizoaguilar)   javier [Stack overflow](https://stackoverflow.com/users/20324508/javo-5)
 * Gabriel - [ghidqui13](https://github.com/ghidqui13/ghidqui13)
 * Oussama - [Usama2004](https://github.com/Usama2004)
+* David - [daviiidleon](https://github.com/daviiidleon)

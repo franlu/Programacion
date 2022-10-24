@@ -6,3 +6,4 @@
 * Sergio - [Serhi0](https://github.com/Serhi0).
 * Kevin - [REXVIN1](https://github.com/REXVIN1)
 * Denis - [HiIMDenis](https://github.com/HiIMDenis).
+* Iván Castro - [ICasGar](https://github.com/ICasGar)

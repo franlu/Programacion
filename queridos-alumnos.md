@@ -6,7 +6,7 @@
 * Sergio - [Serhi0](https://github.com/Serhi0).
 * Kevin - [REXVIN1](https://github.com/REXVIN1)
 * Denis - [HiIMDenis](https://github.com/HiIMDenis) [Denis Stupak] Stack Overflow (https://stackoverflow.com/users/20324506/denis-stupak)
-* Iván Castro - [ICasGar](https://github.com/ICasGar)
+* Iván Castro - [ICasGar](https://github.com/ICasGar)-(https://stackoverflow.com/users/20324535/iv%c3%a1n-castro-garc%c3%ada?tab=profile)
 * Romeo - [romejp451](https://github.com/romejp451)
 * javier - [javiergranizoaguilar](https://github.com/javiergranizoaguilar)   Stack overflow [javo 5](https://stackoverflow.com/users/20324508/javo-5)
 * Gabriel - [ghidqui13](https://github.com/ghidqui13/ghidqui13)

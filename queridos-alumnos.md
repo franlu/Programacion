@@ -8,6 +8,6 @@
 * Denis - [HiIMDenis](https://github.com/HiIMDenis).
 * Iván Castro - [ICasGar](https://github.com/ICasGar)
 * Romeo - [romejp451](https://github.com/romejp451)
-* javier - [javiergranizoaguilar](https://github.com/javiergranizoaguilar)
+* javier - [javiergranizoaguilar](https://github.com/javiergranizoaguilar) [stack overflow](https://stackoverflow.com/users/20324508/javo-5)
 * Gabriel - [ghidqui13](https://github.com/ghidqui13/ghidqui13)
 * Oussama - [Usama2004](https://github.com/Usama2004)

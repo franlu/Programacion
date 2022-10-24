@@ -8,3 +8,4 @@
 * Denis - [HiIMDenis](https://github.com/HiIMDenis).
 * Iván Castro - [ICasGar](https://github.com/ICasGar)
 * Romeo - [romejp451](https://github.com/romejp451)
+* javier - [javiergranizoaguilar](https://github.com/javiergranizoaguilar)

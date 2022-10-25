@@ -12,3 +12,4 @@
 * Gabriel - [ghidqui13](https://github.com/ghidqui13/ghidqui13)
 * Oussama - [Usama2004](https://github.com/Usama2004) [oussama-ed-dahabi](https://stackoverflow.com/users/20324541/oussama-ed-dahabi)
 * David - [daviiidleon](https://github.com/daviiidleon) [daviiidleon](https://es.stackoverflow.com/users/308511/daviiidleon)
+* Sergio T - [DidelfoUwu](https://github.com/didelfouwu) - [DidelfoUwU](https://es.stackoverflow.com/users/308507/didelfouwu)

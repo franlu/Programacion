@@ -15,3 +15,4 @@
 * Sergio T - [DidelfoUwU](https://github.com/didelfouwu) - [DidelfoUwU](https://es.stackoverflow.com/users/308507/didelfouwu)
 * Antonio - [Antonioquiros](https://github.com/Antonioquiros)
 * Luis - [luislopez229](https://github.com/luislopez229)
+* Álvaro - [ajimz12](https://github.com/ajimz12)

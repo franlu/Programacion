@@ -7,7 +7,7 @@
 * Kevin - [REXVIN1](https://github.com/REXVIN1)
 * Denis - [HiIMDenis](https://github.com/HiIMDenis) [denis](https://stackoverflow.com/users/20324506/denis)
 * Iván - [ICasGar](https://github.com/ICasGar)
-* Romeo - [romejp451](https://github.com/romejp451)
+* Romeo - [romejp451](https://github.com/romejp451) - [romejp451](https://es.stackoverflow.com/users/308508/romejp451)
 * javier - [javiergranizoaguilar](https://github.com/javiergranizoaguilar)  [javo-5](https://stackoverflow.com/users/20324508/javo-5)
 * Gabriel - [ghidqui13](https://github.com/ghidqui13/ghidqui13)
 * Oussama - [Usama2004](https://github.com/Usama2004) [oussama-ed-dahabi](https://stackoverflow.com/users/20324541/oussama-ed-dahabi)

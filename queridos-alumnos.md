@@ -2,7 +2,7 @@
 ----
 * Fran (profe) :point_up: - [franlu](https://github.com/franlu).
 * Manuel - [mromrey587](https://github.com/mromrey587).
-* Iván Darío - [IvanParra12](https://github.com/IvanParra12).
+* Iván Darío - [IvanParra12](https://github.com/IvanParra12) - [ivan-parra](https://stackoverflow.com/users/20324559/ivan-parra)
 * Sergio - [Serhi0](https://github.com/Serhi0) - [Sergio](https://es.stackoverflow.com/users/309792/sergio)
 * Kevin - [REXVIN1](https://github.com/REXVIN1)
 * Denis - [HiIMDenis](https://github.com/HiIMDenis) [denis](https://stackoverflow.com/users/20324506/denis)

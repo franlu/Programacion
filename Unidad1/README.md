@@ -1,6 +1,11 @@
 Unidad 01
 ======
 
+* [Ejercicios Resueltos](EjerciciosResueltos)
+* [Práctica 1](p1.md)
+* [Ejercicio de repaso 1](Repaso1.md)
+
+
 ### Control de versiones - Git
 
 - [Introducción al uso de Github](https://docs.github.com/es/get-started)

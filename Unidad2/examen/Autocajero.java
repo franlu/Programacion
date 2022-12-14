@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 import bpc.daw.objetos.TarjetaCredito;
 /**
@@ -11,22 +12,16 @@ public class Autocajero {
         final int INTENTOS = 3;
         
         TarjetaCredito tCredito = new TarjetaCredito(11111, 100);
-        
         Scanner leerTeclado = new Scanner(System.in);
         String clave;
         int aux;
         int intentos = 2;
         
-        // System.out.println("Introduce la contraseña:");
-        // clave = leerTeclado.next();
-        // System.out.println("Has marcado la contraseña: " + clave);
-             
-        
         while (intentos > 0 && intentos <= INTENTOS) {
         
             System.out.println("Introduce la contraseña:");
             clave = leerTeclado.next();
-            // System.out.println("Has marcado la contraseña: " + clave);
+            System.out.println("Has marcado la contraseña: " + clave);
             
             try {
 
@@ -75,9 +70,14 @@ public class Autocajero {
                     
                 } else if (opcion == 'R') {
                 
-                    int cantidad = leerTeclado.nextInt();
+                    int cantidad = 0; 
                     int saldoActual = 0;
                     
+                    System.out.println("Introduzca la cantidad a retirar:");
+                    cantidad = leerTeclado.nextInt();
+                    
+                    // La contraseña se ha filtrado anteriormente.
+                    // Se da por hecho que es correcta y no salta la excepcion
                     try {
                     
                         saldoActual = tCredito.getSaldo(11111);
@@ -89,6 +89,8 @@ public class Autocajero {
                     
                     if (cantidad <= saldoActual){
                         
+                        // La contraseña se ha filtrado anteriormente.
+                        // Se da por hecho que es correcta y no salta la excepcion
                         try {
                             
                             tCredito.sacarDinero(leerTeclado.nextInt(), cantidad);
@@ -106,8 +108,25 @@ public class Autocajero {
                     }
                 
                 } else if (opcion == 'S') {
+                    
+                    System.out.println("En estos momentos el saldo de la tarjeta es: ");
+                    
+                    // La contraseña se ha filtrado anteriormente.
+                    // Se da por hecho que es correcta y no salta la excepcion
+                    try {
+                    
+                        System.out.println("Saldo actual: " + tCredito.getSaldo(11111));
+                        
+                    } catch (Exception ex) {
+                    
+                        System.out.println("ERROR: " + ex.getMessage());
+                    }
                 
-                
+                } else if (opcion == 'T') {
+                    
+                    System.out.println("Ha pulsado terminar de operar en Cajero.");
+                    System.out.println("Gracias por usar el cajero. Recoja su tarjeta.");
+               
                 } else {
                 
                     System.out.println("\nERROR: Opción incorrecta.");

@@ -19,7 +19,7 @@ public class Ejercicio01 {
         while (!salir) {
 
             // pintar menu
-            System.out.println("---------------------------------");
+            System.out.println("\n---------------------------------");
             System.out.println("|             MENÚ              |");
             System.out.println("|-------------------------------|");
             System.out.println("| a - Mostra nombre y ruta      |");
@@ -38,10 +38,16 @@ public class Ejercicio01 {
             switch (opcion) {
                     case 'a': // nombre y ruta
 
+                        System.out.println("\nNombre: " + archivo.getName());
+                        System.out.println("Ruta: " + archivo.getAbsolutePath());
                         break;
 
                     case 'b': // nombre y tamaño
 
+                        long tam = archivo.length();
+                        System.out.println("\nTamaño: " + tam + " B");
+                        System.out.println("Tamaño: " + tam / Math.pow(1024, 2) + " MB");
+                        System.out.println("Tamaño: " + tam / Math.pow(1024, 3) + " GB");
                         break;
 
                     case 'c': // Contenido

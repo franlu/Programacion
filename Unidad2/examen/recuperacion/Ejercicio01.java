@@ -19,19 +19,19 @@ public class Ejercicio01 {
         while (!salir) {
 
             // pintar menu
-            System.out.println("=================================");
-            System.out.println("=             MENÚ              =");
-            System.out.println("=-------------------------------=");
-            System.out.println("= a - Mostra nombre y ruta      =");
-            System.out.println("= b - Mostrar nombre y tamaño   =");
-            System.out.println("= c - Ver contenido CSS         =");
-            System.out.println("= d - Cambiar nombre            =");
-            System.out.println("= e - Crear fichero minifier    =");
-            System.out.println("= f - Ver contenido de minifier =");
-            System.out.println("= g - Calcular diferencia       =");
-            System.out.println("= h - Mostrar tiempo empleado   =");
-            System.out.println("= s - Salir                     =");
-            System.out.println("=================================");
+            System.out.println("---------------------------------");
+            System.out.println("|             MENÚ              |");
+            System.out.println("|-------------------------------|");
+            System.out.println("| a - Mostra nombre y ruta      |");
+            System.out.println("| b - Mostrar nombre y tamaño   |");
+            System.out.println("| c - Ver contenido CSS         |");
+            System.out.println("| d - Cambiar nombre            |");
+            System.out.println("| e - Crear fichero minifier    |");
+            System.out.println("| f - Ver contenido de minifier |");
+            System.out.println("| g - Calcular diferencia       |");
+            System.out.println("| h - Mostrar tiempo empleado   |");
+            System.out.println("| s - Salir                     |");
+            System.out.println("---------------------------------");
 
             opcion = leerTeclado.next().charAt(0);
 

@@ -4,4 +4,4 @@
 
 ### Ejercicios de repaso
 
-*  **respaso** - Ejercicios para repasar bucles y arrays
+*  **repaso** - Ejercicios para repasar bucles y arrays

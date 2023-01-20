@@ -32,7 +32,7 @@ un 10%
 * Crea un array de números de un tamaño pasado por teclado, el array contendrá números aleatorios entre 1 y 300 y mostrar aquellos números que acaben en un dígito que nosotros le indiquemos por teclado (debes controlar que se introduce un numero correcto. Entre 0 y 9), estos deben guardarse en un nuevo array. Por último, muestra la posición y valor de cada elemento del array.
 
 * Escribe un programa que reciba un texto y transforme lenguaje natural a "lenguaje hacker" (conocido realmente como "leet" o "1337"). Este lenguaje
- *  se caracteriza por sustituir caracteres alfanuméricos. Utiliza esta tabla (https://www.gamehouse.com/blog/leet-speak-cheat-sheet/) con el alfabeto y los números en "leet". (Usa la primera opción de cada transformación. Por ejemplo "4" para la "a"). Usa array para cada lenguaje (natural y leet).
+se caracteriza por sustituir caracteres alfanuméricos. Utiliza esta tabla (https://www.gamehouse.com/blog/leet-speak-cheat-sheet/) con el alfabeto y los números en "leet". (Usa la primera opción de cada transformación. Por ejemplo "4" para la "a"). Usa array para cada lenguaje (natural y leet).
 
 * Escribe un programa que sea capaz de generar contraseñas de forma aleatoria. Podrás configurar generar contraseñas con los siguientes parámetros:
  Longitud: Entre 8 y 16. Con o sin letras mayúsculas. Con o sin números. Con o sin símbolos. Los parámetros se deben pedir al usuario. Además, se debe pedir el número de contraseñas que se van a generar, para mostrarlas al usuario y que pueda elegir entre una de ellas.

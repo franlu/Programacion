@@ -9,7 +9,7 @@ supermercado. Se pide el nombre del producto y su precio en bucle, después
 de cada producto y su correspondiente precio se preguntará si deseamos
 continuar introduciendo más productos, si la respuesta es “SI” lo haremos. Al
 terminar de introducir el producto mostraremos el importe total de la compra
-y cuántos productos hemos comprado en total. (2.5 puntos)
+y cuántos productos hemos comprado en total.
 
 * Realiza un programa que realice el cálculo de las medias de los alumnos
 de clase. Lo primero que se necesita es saber cuántos alumnos hay en el
@@ -17,8 +17,8 @@ aula, es un dato que se pedirá por pantalla. Después se pedirán las notas
 de las 4 actividades que se realizan por trimestre (se debe utilizar un bucle
 para esto), la nota del examen y la nota de la actitud. Después de
 introducir estos datos se debe mostrar la nota media del alumno teniendo
-en cuenta que las actividades son un 60%, el examen un 30% y la actitud
-un 10%. (5puntos)
+en cuenta que las actividades son un 30%, el examen un 60% y la nota de clase
+un 10%
 
 * La serie fibonacci es una serie infinita de números, donde empezando en 0 y 1, el siguiente elemento se obtiene de la suma de los dos anteriores. 
  Por ejemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55…. Haz un programa que muestre los 50 primeros numeros de la serie.

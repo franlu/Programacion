@@ -12,14 +12,28 @@ public class Ej06Matriz {
 
     public static void main(String[] args) {
         
-        final int ANCHO = 10;
-        final int ALTO = 10;
-        
-        int[][] tablero = new int[ANCHO][ALTO];
-        
-        for(int x=0;x<ANCHO;x++)
+        tablero[0][0] = "*";
+
+        int aux = 1;
+        for(char a ='A'; a<'K';a++){
+            tablero[0][aux]=Character.toString(a);
+            aux++;
+        }
+        aux = 1;
+        for(char a ='A'; a<'K';a++){
+            tablero[aux][0]=Character.toString(a);
+            aux++;
+        }
+
+        for(int x=1;x<ANCHO;x++)
+            for(int y=1;y<ALTO;y++)
+                tablero[x][y]= "~";
+
+        for(int x=0;x<ANCHO;x++){
             for(int y=0;y<ALTO;y++)
-                tablero[x][y]=0;
+                System.out.print(tablero[x][y] + " ");
+            System.out.println();
+        }
         
     } // main
 } // clase

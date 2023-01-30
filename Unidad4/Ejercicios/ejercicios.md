@@ -2,10 +2,10 @@
 
 Listado de ejercicios para el tema
 
-###### Cafetera
+##### Cafetera
 
-Desarrolla una clase Cafetera con atributos _capacidadMaxima (la cantidad máxima
-de café que puede contener la cafetera) y _cantidadActual (la cantidad actual de café
+Desarrolla una clase Cafetera con atributos _capacidadMaxima_ (la cantidad máxima
+de café que puede contener la cafetera) y _cantidadActual_ (la cantidad actual de café
 que hay en la cafetera). Implementa, al menos, los siguientes métodos: 
 * Constructor predeterminado: establece la capacidad máxima en 1000 (c.c.)
 y la actual en cero (cafetera vacía).

@@ -12,30 +12,29 @@ public class Incidencia {
     private String descripcion;
     private String resolucion;
     
-    static int auto = 0;
-    
+    private static int codigoAuto = 0;
+    private static int pendiente = 0;
     
     
     public Incidencia(){}
     
     public Incidencia(int puesto, String descripcion){
     
-        this.codigo = Incidencia.auto++;
+        this.codigo = Incidencia.codigoAuto++;
         this.estado = "Pendiente";
         this.puesto = puesto;
         this.descripcion = descripcion;
         this.resolucion = "";
         
-       
-        
+        Incidencia.pendiente++;
     }
     
     public void resuelve(String resolucion) {
         
         this.estado = "Resuelta";
         this.resolucion = resolucion;
-    
         
+        Incidencia.pendiente--;
     }
     
     @Override
@@ -48,7 +47,7 @@ public class Incidencia {
         aux+= " - " + this.descripcion;
         aux+= " - " + this.estado;
         
-        if (this.estado.equals("Resuelta"))
+        if (this.estado.equalsIgnoreCase("Resuelta"))
             
             aux+= " - " + this.resolucion;
     
@@ -58,12 +57,8 @@ public class Incidencia {
     
     public static final int getPendientes(){
     
-       
+       return Incidencia.pendiente;
         
-        return auto;
-        
-    }
-    
-    
+    } 
     
 }

@@ -2,8 +2,9 @@
 
 * **Persona** - Ejemplo de uso de JavaDoc
 * **Estudiante** - Ejemplo de uso de JavaDoc, incluyendo excepciones
-* **Interfaz Figura** -
-* **Interfaz MedidorAmbiental** - 
+* **Interfaz Figura** - Ejemplo de interfaz
+* **Interfaz MedidorAmbiental** - Ejemplo de interfaz
+* **CuentaBancaria** - Ejemplo de uso para la excepción IllegalStateException
 
 #### Recursos
 

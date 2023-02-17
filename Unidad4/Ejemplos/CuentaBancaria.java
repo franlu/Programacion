@@ -9,16 +9,16 @@ public class CuentaBancaria {
     private int saldo;
 
     public void depositar(int cantidad) throws IllegalStateException {
-        if (saldo + cantidad > 10000) {
+        if (this.saldo + cantidad > 10000) {
             throw new IllegalStateException("No se puede depositar más de 10.000 €.");
         }
-        saldo += cantidad;
+        this.saldo += cantidad;
     }
 
     public void retirar(int cantidad) throws IllegalStateException {
-        if (saldo - cantidad < 0) {
+        if (this.saldo - cantidad < 0) {
             throw new IllegalStateException("No se puede retirar más de lo que hay en la cuenta.");
         }
-        saldo -= cantidad;
+        this.saldo -= cantidad;
     }
 }

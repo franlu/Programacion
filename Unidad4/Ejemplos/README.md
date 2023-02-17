@@ -2,8 +2,8 @@
 
 * **Persona** - Ejemplo de uso de JavaDoc
 * **Estudiante** - Ejemplo de uso de JavaDoc, incluyendo excepciones
-* ** Interfaz Figura** -
-* ** Interfaz MedidorAmbiental** - 
+* **Interfaz Figura** -
+* **Interfaz MedidorAmbiental** - 
 
 #### Recursos
 

@@ -5,6 +5,7 @@
 * **Interfaz Figura** - Ejemplo de interfaz
 * **Interfaz MedidorAmbiental** - Ejemplo de interfaz
 * **AnimalAcuatico** - Interfaz que extiende de otra interfaz.
+* **Nomina** - Interfaz con atributos estaticos
 * **CuentaBancaria** - Ejemplo de uso para la excepción IllegalStateException
 
 #### Recursos

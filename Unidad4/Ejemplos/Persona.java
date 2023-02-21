@@ -23,7 +23,7 @@ public class Persona {
      * @return El nombre de la persona.
      */
     public String getNombre() {
-        return nombre;
+        return this.nombre;
     }
     
     /**
@@ -39,7 +39,7 @@ public class Persona {
      * @return La edad de la persona.
      */
     public int getEdad() {
-        return edad;
+        return this.edad;
     }
     
     /**

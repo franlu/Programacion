@@ -80,8 +80,8 @@ public class Satelite {
      * Añadir el satelite a una constelación
      * 
      * @param grupoSatelites Constelación a la que se va a añadir el satelite
-     * @return true El satelite se ha añadido a la constelación
-     *         false El satelite no ha sido añaddido a la constelación 
+     * @return <ul><li>true El satelite se ha añadido a la constelación</li>
+     *         <li>false El satelite no ha sido añaddido a la constelación</li></ul>
      */
     public boolean agregarSATConstelacion(ArrayList<Satelite> grupoSatelites){
     
@@ -101,7 +101,8 @@ public class Satelite {
      * Comprueba si un grupo de satelites cumple los requisitos para ser lanzados.
      * 
      * @param flota Conjunto de satelites que se quieren lanzar.
-     * @return true Se cumplen los requisitos para realizar el lanzamiento.
+     * @return <ul><li>true Se cumplen los requisitos para realizar el lanzamiento.</li>
+               <li>false NO se cumplen los requisitos de lanzamiento.</li></ul> 
      * @throws Exception No se han cumplido los requisitos para el lanzamiento.
      */
     public static boolean lanzamientoSatelites(ArrayList<Satelite> flota) throws Exception {
@@ -173,9 +174,9 @@ public class Satelite {
     
     
     /**
-     * Desintegrar un satelite
+     * Desintegrar un satélite
      * 
-     * @param satelite Satelite que va a ser destruido.
+     * @param satelite Satélite que va a ser destruido.
      * @param id Identificador del satelite que va a ser destruido.
      * @return el identifcador del satelite desintegrado
      */
@@ -217,4 +218,29 @@ public class Satelite {
     
     }
     
+    /**
+     * Muestra información sobre el satélite
+     * 
+     * @return Cadena de caracteres con los datos del satélite
+     */
+    @Override
+    public String toString() {
+        
+        String aux = "";
+        
+            aux += "ID: "+ this.ID;
+            aux += "\nAltura: " + this.getAlturaSAT();
+            aux += "\nBateria: " + this.getEstadoCargaSAT();
+            
+            if (this.operativo) {
+                aux += "\nEstado: Operativo.";        
+            }
+            else{
+                aux += "\nEstado: Inoperativo.";
+            }
+            
+            aux += "\nTotal de Satelites: " + Satelite.totalSatelites;
+        
+        return aux;
+    }
 }

@@ -15,7 +15,8 @@ public class Test {
         Satelite sat1 = new Satelite(1000,10000, 1000 );
         
         sat1.agregarSATConstelacion(sagitario);
-               
+
+        System.out.println(sat1);       
         
     }
     

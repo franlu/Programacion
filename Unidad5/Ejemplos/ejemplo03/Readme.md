@@ -1,0 +1,2 @@
+# Excepciones personalizadas
+

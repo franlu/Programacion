@@ -14,7 +14,7 @@ public class AvionBombardero extends AvionDeCombate {
         this.capacidadCarga = capacidadCarga;
     }
 
-    public void bombarderar() {
-        System.out.println("Lanzando bombas...");
+    public void bombardear() {
+        // Lanzando bombas...
     }
 }

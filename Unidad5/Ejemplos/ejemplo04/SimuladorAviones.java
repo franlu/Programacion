@@ -23,7 +23,7 @@ public class SimuladorAviones {
                 System.out.println("Armas: " + caza.getArmamento());
             } else if (avion instanceof AvionBombardero) {
                 AvionBombardero bombardero = (AvionBombardero) avion;
-                bombardero.bombarderar();
+                bombardero.bombardear();
                 System.out.println("Capacidad de carga: " + bombardero.getCapacidadCarga());
             }
             

@@ -6,3 +6,4 @@
 * **ejemplo04** - Uso del operador instanceof
 * **ejemplo05** - Sobreescribir metodos toString, equals, hashCode    
 * **ejemplo06** - Una lista que contiene objetos de diferentes tipos
+* **ejemplo07** - Sobreescribir metodos toString, equals, hashCode 

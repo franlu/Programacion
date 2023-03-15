@@ -6,4 +6,5 @@
 * **ejemplo04** - Uso del operador instanceof
 * **ejemplo05** - Sobreescribir metodos toString, equals, hashCode    
 * **ejemplo06** - Una lista que contiene objetos de diferentes tipos
-* **ejemplo07** - Sobreescribir metodos toString, equals, hashCode 
+* **ejemplo07** - Sobreescribir metodos toString, equals, hashCode
+* **ejemplo08** - Sobreescribir compareTo de la interfaz Comparable<T>

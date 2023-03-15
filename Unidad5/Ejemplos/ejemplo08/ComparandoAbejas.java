@@ -15,4 +15,13 @@ public class ComparandoAbejas {
                          + " unidades de miel.");
   }
   
+  /**
+  * SALIDA
+  *
+  * Abeja2 produce 15 unidades de miel.
+  * Abeja1 produce 20 unidades de miel.
+  * Abeja3 produce 25 unidades de miel.
+  *
+  */
+  
 }

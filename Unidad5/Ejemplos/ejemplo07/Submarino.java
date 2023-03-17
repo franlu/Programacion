@@ -31,7 +31,7 @@ public class Submarino {
       
         if (o != null || getClass() == o.getClass()) {
             Submarino submarino = (Submarino) o;
-            resultado = (tripulacion == submarino.tripulacion) &&
+            resultado = (this.tripulacion == submarino.tripulacion) &&
             this.nombre.equals(submarino.nombre) &&
             this.armamento.equals(submarino.armamento);
         }

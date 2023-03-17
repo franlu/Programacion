@@ -10,15 +10,15 @@ public class Abeja implements Comparable<Abeja> {
     }
 
     public String getNombre() {
-        return nombre;
+        return this.nombre;
     }
 
     public int getEdad() {
-        return edad;
+        return this.edad;
     }
 
     public int getMielProducida() {
-        return mielProducida;
+        return this.mielProducida;
     }
 
     @Override

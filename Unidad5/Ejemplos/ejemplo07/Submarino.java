@@ -29,15 +29,12 @@ public class Submarino {
     public boolean equals(Object o) {
         boolean resultado = false;
       
-        if (o == null || getClass() != o.getClass()) {
-            return resultado;
+        if (o != null || getClass() == o.getClass()) {
+            Submarino submarino = (Submarino) o;
+            resultado = (tripulacion == submarino.tripulacion) &&
+            this.nombre.equals(submarino.nombre) &&
+            this.armamento.equals(submarino.armamento);
         }
-        
-        Submarino submarino = (Submarino) o;
-        resultado = (tripulacion == submarino.tripulacion) &&
-                this.nombre.equals(submarino.nombre) &&
-                this.armamento.equals(submarino.armamento);
-        
         return resultado;
     }
 

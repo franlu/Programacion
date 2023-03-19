@@ -2,6 +2,8 @@ package practica01;
 
 import java.util.List;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 // Al estar las clases en el mismo paquete no es necesario importarlas
 
@@ -17,6 +19,8 @@ public class Principal {
 
     public static void main(String[] args) {
         
+        final Logger LOGGER = Logger.getLogger("");
+        
         Coche c1 = new Coche("ALHAMBRA", "Rojo", 5, "SEAT");
         Coche c2 = new Coche("C2", "Verde", 3, "CITROEN");
         Coche c3 = new Coche("MOKKA-e", "Azul", 5, "OPEL");
@@ -26,15 +30,16 @@ public class Principal {
         Procesador pro1 = new Procesador();
         Procesador pro2 = new Procesador();
         
-        System.out.println("---> COCHE <---\n");
+        LOGGER.log(Level.INFO, "---> COCHE <---");
+        
         System.out.println(c1.arrancar());
         System.out.println(c1.acelerar());
         System.out.println(c1.frenar());
         System.out.println(c1.parar());
         System.out.println(c1);
                 
+        LOGGER.log(Level.INFO, "---> PROCESADOR <---");
         
-        System.out.println("\n---> PROCESADOR <---\n");
         objetos.add(120);
         objetos.add("Esto es una cadena de texto");
         objetos.add(c2);
@@ -58,8 +63,8 @@ public class Principal {
         objetos.add(Math.PI); // double, para provocar la excepcion
         enterosProcesados.clear();
         
-        System.out.println("Clase Procesador: " + Procesador.totalInstancias() 
-                            + " instancia/s");
+        System.out.println("Clase Procesador: " + pro2.totalInstancias() 
+                            + " instancia/s"); // Procesador.totalInstancias();
                 
         try {
             

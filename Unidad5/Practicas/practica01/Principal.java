@@ -22,22 +22,56 @@ public class Principal {
         Coche c3 = new Coche("MOKKA-e", "Azul", 5, "OPEL");
         
         List<Object> objetos = new ArrayList();
+        List<Integer> enterosProcesados = new ArrayList();
+        Procesador pro1 = new Procesador();
+        Procesador pro2 = new Procesador();
         
-        
-        // Coche
+        System.out.println("---> COCHE <---\n");
         System.out.println(c1.arrancar());
         System.out.println(c1.acelerar());
         System.out.println(c1.frenar());
         System.out.println(c1.parar());
-        System.out.println("Número de puertas del coche: " + c1.getNumeroPuertas());
-        System.out.println(c1); // llamada a toString
+        System.out.println(c1);
+                
         
+        System.out.println("\n---> PROCESADOR <---\n");
         objetos.add(120);
         objetos.add("Esto es una cadena de texto");
         objetos.add(c2);
+        objetos.add(c3);
+                
+        try {
+            
+            enterosProcesados = pro1.procesar(objetos);
+            
+        } catch (ProcesadorException pe) {
+         
+             System.out.println(pe.getClass() + " :: " + pe.getMessage());
+            // pe.printStackTrace();
+            
+        } finally {
+        
+            System.out.println("[VÁLIDOS]: " + enterosProcesados.size() 
+                            + " enteros procesados.");
+        }
+             
         objetos.add(Math.PI); // double, para provocar la excepcion
+        enterosProcesados.clear();
         
+        System.out.println("Clase Procesador: " + Procesador.totalInstancias() 
+                            + " instancia/s");
+                
+        try {
+            
+            enterosProcesados = pro2.procesar(objetos);
+            
+        } catch (ProcesadorException pe) {
+            
+            System.out.println(pe.getClass() + " :: " + pe.getMessage() 
+                                + " :: " + enterosProcesados.size() 
+                                + " enteros procesados");            
+        }        
         
-    }
-    
-}
+    } // Main-End
+
+} // Class-End

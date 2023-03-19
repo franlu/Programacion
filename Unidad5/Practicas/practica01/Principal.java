@@ -29,6 +29,7 @@ public class Principal {
         System.out.println(c1.acelerar());
         System.out.println(c1.frenar());
         System.out.println(c1.parar());
+        System.out.println("Número de puertas del coche: " + c1.getNumeroPuertas());
         System.out.println(c1); // llamada a toString
         
         objetos.add(120);

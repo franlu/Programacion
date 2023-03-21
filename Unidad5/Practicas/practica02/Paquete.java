@@ -7,7 +7,7 @@ package examen;
  * @author Fran <fran.lucena@gmail.com>
  * @since 21/03/2023
  * @version 1.0
- * @see Interfaz Comparable, Clase Object
+ * @see java.lang.object, java.lang.comparable
  */
 public class Paquete implements Comparable<Paquete> {
     
@@ -18,37 +18,96 @@ public class Paquete implements Comparable<Paquete> {
     private String producto;
     private String direccionDestino;
     private int prioridad;
+
+    /**
+     * Contructor por defecto.
+     * Se declara privado para forzar la creación de objetos con el constructor
+     * con parámetros. 
+     */
+    private Paquete(){}
     
-    public Paquete(String pro, String dd, int pri){}
+
+    /**
+     * Constructor con parámetros
+     *
+     * @param pro descripción del producto
+     * @param dd dirección de destino
+     * @param pri nivel de prioridad
+     * @throws IllegalArgumentException Se lanza cuando el nivel 
+     *         de prioridad no es válido 
+     */
+    public Paquete(String pro, String dd, int pri) throws IllegalArgumentException {
+
+        if (pri > 0 && pri < 4)
+            this.prioridad = pri;
+        else
+            throw new IllegalArgumentException("El nivel de prioridad no es válido");
+        
+        this.producto = pro;
+        this.direccionDestino = dd;
+
+    }
     
+    /**
+     * Obtener el producto que contiene el paquete
+     *
+     * @return String descripción del producto
+     */
     public String getProducto(){
     
         return this.producto;
     
     }
     
+    /**
+     * Consultar la dirección de destino
+     *
+     * @return String dirección
+     */
     public String getDireccion(){
     
         return this.direccionDestino;
     
     }
+
+    /**
+     * Consultar prioridad de entrega
+     *
+     * @return int nivel de prioridad
+     */
     public int getPrioridad(){
     
         return this.prioridad;
     
     }
     
+    /**
+     * Establecer la descripción del producto
+     * 
+     * @param pro descripción del producto
+     */
     public void setProducto(String pro){
     
         this.producto = pro;
     
     }
     
+    /**
+     * Asignar la dirección de destino
+     * 
+     * @param dd dirección de destino
+     */
     public void setDireccion(String dd){
     
         this.direccionDestino = dd;
     
     }
+    
+    /**
+     * Fijar la prioridad de envio
+     * 
+     * @param pri nivel de prioridad
+     */
     public void setPrioridad(int pri){
     
         this.prioridad = pri;
@@ -86,7 +145,11 @@ public class Paquete implements Comparable<Paquete> {
     public String toString(){
         
         String aux = "";
-    
+
+            aux += "Producto: " + this.getProducto();
+            aux += "\nDirección de Destino: " + this.getDireccion();
+            aux += "\nPrioridad: " + this.getPrioridad();
+
         return aux;
     }
     

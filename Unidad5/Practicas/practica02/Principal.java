@@ -1,20 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package examen;
 
 /**
- *
- * @author fran
+ * Ejemplo de uso de las clase Paquete, Transportista, TransportistaOrdenado
+ * 
+ * @author Fran <fran.lucena@gmail.com>
+ * @since 21/03/2023
+ * @version 1.0
+ * @see Paquete, Transportista, TransportistaOrdenado
  */
 public class Principal {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
     }
     
 }

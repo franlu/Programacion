@@ -30,5 +30,5 @@ public interface EmpresaPaqueteria {
     /**
      *  Enviar paquetes a su destino.
      */
-    default void enviarPaquetes(){}
+    public default void enviarPaquetes(){}
 }

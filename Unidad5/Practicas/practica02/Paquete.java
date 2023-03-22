@@ -1,5 +1,7 @@
 package examen;
 
+import java.util.Objects;
+
 /**
  * Representa el módelo de un paquete que será gestionado por un empresa de 
  * transporte.
@@ -20,9 +22,7 @@ public class Paquete implements Comparable<Paquete> {
     private int prioridad;
 
     /**
-     * Contructor por defecto.
-     * Se declara privado para forzar la creación de objetos con el constructor
-     * con parámetros. 
+     * Contructor por defecto. 
      */
     private Paquete(){}
     
@@ -34,11 +34,11 @@ public class Paquete implements Comparable<Paquete> {
      * @param dd dirección de destino
      * @param pri nivel de prioridad
      * @throws IllegalArgumentException Se lanza cuando el nivel 
-     *         de prioridad no es válido 
+     *         de prioridad no es válido (1,2 y 3 son niveles válidos) 
      */
-    public Paquete(String pro, String dd, int pri) throws IllegalArgumentException {
+    public Paquete(String pro, String dd, int pri) throws IllegalArgumentException{
 
-        if (pri > 0 && pri < 4)
+        if (pri >= Paquete.BAJA && pri <= Paquete.ALTA)
             this.prioridad = pri;
         else
             throw new IllegalArgumentException("El nivel de prioridad no es válido");
@@ -113,34 +113,79 @@ public class Paquete implements Comparable<Paquete> {
         this.prioridad = pri;
     
     }
-
+    
+    /**
+     * Comparar un paquete en función del nivel de prioridad
+     * 
+     * @param p paquete con el que comparar la prioridad
+     * @return <ul>
+     *          <li>Entero negativo en caso de que el objeto tenga menor prioridad</li>
+     *          <li>0 en caso de tener el mismo nivel de prioridad</li>
+     *          <li>Entero positivo en caso de que el objeto tenga mayor prioridad</li>
+     *         </ul>
+     */
     @Override
     public int compareTo(Paquete p){
     
-        int resultado = 0;
+        int diferencia = 0;
         
-        return resultado;
+            diferencia = Integer.compare(this.prioridad, p.getPrioridad());
+        
+        return diferencia;
     
     }
-    
+
+    /**
+     * Comprobar si dos objetos son iguales. Generado automáticamente por el IDE.
+     * 
+     * @param obj objeto a comparar
+     * @return <ul>
+     *          <li>true los objetos son iguales</li>
+     *          <li>false los objetos son distintos</li>
+     *         </ul>
+     */
     @Override
-    public boolean equals(Object o){
-    
-        boolean iguales = false;
+    public boolean equals(Object obj) {
         
-        return iguales;
-    
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Paquete other = (Paquete) obj;
+        if (!Objects.equals(this.producto, other.producto)) {
+            return false;
+        }
+        
+        return Objects.equals(this.direccionDestino, other.direccionDestino);
     }
     
+    /**
+     * Crear un código para identificar al objeto. Generado automáticamente por el IDE.
+     * 
+     * @return int código hash del objeto 
+     */
     @Override
-    public int hashCode(){
-    
-        int hashC = 0;
+    public int hashCode() {
         
-        return hashC;
+        int hash = 7;
+            
+            hash = 71 * hash + Objects.hashCode(this.producto);
+            hash = 71 * hash + Objects.hashCode(this.direccionDestino);
+            hash = 71 * hash + this.prioridad;
         
+        return hash;
     }
     
+    /**
+     * Muestra información detallada sobre la clase
+     * 
+     * @return cadena de texto con los datos del paquete 
+     */ 
     @Override
     public String toString(){
         

@@ -38,7 +38,7 @@ public class Paquete implements Comparable<Paquete> {
      */
     public Paquete(String pro, String dd, int pri) throws IllegalArgumentException{
 
-        if (pri >= Paquete.BAJA && pri <= Paquete.ALTA)
+        if (pri <= Paquete.BAJA && pri >= Paquete.ALTA)
             this.prioridad = pri;
         else
             throw new IllegalArgumentException("El nivel de prioridad no es válido");
@@ -184,14 +184,14 @@ public class Paquete implements Comparable<Paquete> {
     /**
      * Muestra información detallada sobre la clase
      * 
-     * @return cadena de texto con los datos del paquete 
-     */ 
+     * @return cadena de texto con los datos del paquete
+     */    
     @Override
     public String toString(){
         
         String aux = "";
 
-            aux += "Producto: " + this.getProducto();
+            aux += "\nProducto: " + this.getProducto();
             aux += "\nDirección de Destino: " + this.getDireccion();
             aux += "\nPrioridad: " + this.getPrioridad();
 

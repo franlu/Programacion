@@ -50,20 +50,20 @@ public class Principal {
         
         
         // intrducir un tiempo de entrega pequeño para hacer las pruebas.
-        ups = new Transportista(10);
-        fedex = new TransportistaOrdenado(3);
-        
         ups.subirCamion(amazon);
         ups.subirCamion(libreria);
+        
+        System.out.println("\nTransportista: ");
+        System.out.println(ups); // toString de Transportista
                 
         ups.enviar();
         
         fedex.subirCamion(amazon);
         fedex.subirCamion(libreria);
+
         
         fedex.enviar();
         
-        System.out.println("\nPAQUETES ENTREGADOS :-) ");
-    }
+        System.out.println("\nPAQUETES ENTREGADOS :-)
     
 }
